@@ -9,7 +9,6 @@ const companyName = Bangers({ subsets: ["latin"], weight: "400" });
 const HeroSectionWelcomeText = () => {
   return (
     <div className="absolute flex flex-col justify-center items-center text-center px-4 top-40">
-      
       <h1
         className={`text-3xl md:text-4xl lg:text-5xl text-[#fff22d] mt-10 ${welcome.className}`}
       >
@@ -23,19 +22,27 @@ const HeroSectionWelcomeText = () => {
       </p>
 
       <p className="max-w-2xl text-sm md:text-base lg:text-lg text-gray-200 mt-10">
-        Experience authentic flavors, premium ingredients, and unforgettable dining
-        moments crafted with passion just for you.
+        Experience authentic flavors, premium ingredients, and unforgettable
+        dining moments crafted with passion just for you.
       </p>
 
-      <button className="mt-6 px-8 py-3 bg-[#fff22d] text-black font-semibold rounded-full
-        hover:bg-yellow-400 transition duration-300">
+      <button
+        className="mt-6 px-8 py-3 bg-[#fff22d] text-black font-semibold rounded-full
+        hover:bg-yellow-400 transition duration-300"
+      >
         Explore Our Menu
       </button>
-
     </div>
   );
 };
 
+const commingSoonText = () => {
+  return (
+    <div className="absolute flex flex-col justify-center items-center text-center px-4 top-40">
+      <h1>Comming Soon...</h1>
+    </div>
+  );
+};
 
 const HeroSection = () => {
   return (

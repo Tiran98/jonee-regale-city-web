@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 const NavigationSection = () => {
-  const navLinks = ["HOME",, "ABOUT", "MENU", "RESERVATIONS", "CONTACT"];
+  const navLinks = ["HOME","ABOUT", "MENU", "GALLERY", "CONTACT"];
   const [isOpen, setIsOpen] = useState(false);
 
   return (
