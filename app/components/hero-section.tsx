@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import HeaderSection from "./header-section";
 import Image from "next/image";
@@ -29,6 +30,7 @@ const HeroSectionWelcomeText = () => {
       <button
         className="mt-6 px-8 py-3 bg-[#fff22d] text-black font-semibold rounded-full
         hover:bg-yellow-400 transition duration-300"
+        onClick={() => window.location.href = '/#menu'}
       >
         Explore Our Menu
       </button>
