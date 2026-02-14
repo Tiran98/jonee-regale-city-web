@@ -19,7 +19,7 @@ const slides: {
   {
     image: "/images/para1.jpg",
     h: "center",
-    v: "top",
+    v: "bottom",
     title: "Our Story",
     text: (
       <>
@@ -43,7 +43,7 @@ const slides: {
     ),
   },
   {
-    image: "/images/para3.jpeg",
+    image: "/images/para3.jpg",
     h: "center",
     v: "bottom",
     title: "Our Promise",
