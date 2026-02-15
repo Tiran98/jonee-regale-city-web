@@ -11,6 +11,7 @@ const NavigationSection = () => {
     { name: "ABOUT", href: "/#about" },
     { name: "MENU", href: "/#menu" },
     { name: "GALLERY", href: "/#gallery" },
+    { name: "REVIEWS", href: "/#reviews" },
     { name: "CONTACT", href: "/#contact" }
   ];
 

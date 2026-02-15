@@ -25,7 +25,7 @@ const slides: {
       <>
         At <span className="font-semibold text-amber-200">Jonee Regale City</span>, food is more
         than just a meal — it&apos;s a way to connect people. Since opening our doors
-        in 2022, we serve dishes inspired by authentic Sri Lankan flavors.
+        in 2007, we serve dishes inspired by authentic Sri Lankan flavors.
       </>
     ),
   },
